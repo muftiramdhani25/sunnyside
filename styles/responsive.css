@@ -1,0 +1,127 @@
+/* Media queries */
+@media(max-width: 375px){
+
+  /* Global styling */
+  .display_block{
+      display: block !important;
+  }
+
+  /* Navigation section styling */
+  nav .navigation{
+      display: none;
+      background-color: #FFF;
+      /* padding: 6%; */
+      text-align: center;
+      position: absolute;
+      right: 0;
+      height: 50vh;
+      z-index: 5;
+      top: 95px;
+      width: 90%;
+  }
+  nav .navigation li{
+      display: block;
+      margin: 36px 0px;
+  }
+  nav .navigation li a:hover{
+      color:  #000;
+  }
+  nav .navigation #contact{
+      background-color: #ffee22;
+  }
+
+  nav #hamburger{
+      display: block;
+      position: absolute;
+      right: 30px;
+      right: 30px;
+  }
+
+  /* Hero section styling */
+  .hero h1{
+      text-align: center;
+  }
+  .hero{
+      background: url(../images/mobile/image-header.jpg) no-repeat center center;
+      background-size: cover;
+  }
+  
+  /* Features section styling */
+
+  /* Features first section */
+  .features .first_section{
+      flex-direction: column-reverse;
+      margin-bottom: 50vh;
+  }
+
+  .features .first_section .first_left{
+      width: 100%;
+      height: 30%;
+      text-align: center;
+  }
+  .features .first_section .first_right{
+      width: 100%;
+      background: url(../images/mobile/image-transform.jpg);
+      background-size: cover;
+      height: 100%;
+  } 
+
+  /* Features second section */
+  .features .second_section{
+      flex-direction: column;
+      margin-bottom: 50vh;
+  }
+  .features .second_section .second_left{
+      width: 100%;
+      background: url(../images/mobile/image-stand-out.jpg) no-repeat center center;
+      background-size: cover;
+      height: 100%;
+  }
+  .features .second_section .second_right{
+      width: 100%;
+      height: 30%;
+      text-align: center;
+  }
+
+  /* Design section styling */
+  .design{
+      text-align: center;
+      flex-direction: column;
+      height: 200vh;
+  }
+  .design_cards{
+      width: 100%;
+      height: 100%;
+  }
+  .design_text p{
+      padding: 0 6%;
+  }
+
+  /* Testimonial section */
+  .testimonials{
+    text-align: center;
+    height: 200vh;
+    margin: 50px auto 100px;
+  }
+  .testimonials_header{
+      font-size: 1rem;
+      margin-bottom: 10%;
+  }
+ 
+  .reviews{
+      height: 150%;
+  }
+  .testimonials_main_content{
+      flex-direction: column;
+      height: 100%;
+  }
+  .review_content{
+      margin: 8%;
+  }
+  .image_gallery{
+      flex-wrap: wrap;
+  }
+  .image_gallery img{
+      width: 50%;
+  }
+}
